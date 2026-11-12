@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karachi Institute of Economics and Technology</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <!-- University name and welcome button -->
+    <header id="home">
+        <p class="eyebrow">NORTH NAZIMABAD CAMPUS</p>
+        <h1>Karachi Institute of Economics and Technology</h1>
+        <p class="tagline">Learn with purpose. Build what comes next.</p>
+        <button id="welcome-button" type="button">Say hello</button>
+        <p id="welcome-message"></p>
+    </header>
+
+    <!-- These links jump to the sections below -->
+    <nav>
+        <p class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#departments">Departments</a>
+            <a href="#programs">Programs</a>
+            <a href="#campus">Campus</a>
+            <a href="#admissions">Admissions</a>
+        </p>
+    </nav>
+
+    <main>
+        <section id="about" class="content-section">
+            <h2>A place to learn and grow</h2>
+            <p>Welcome to the <strong>Karachi Institute of Economics and Technology</strong>, North Nazimabad campus. We bring business, technology, and creative thinking together in a friendly learning community.</p>
+            <p>Our students learn through clear foundations, practical work, and ideas that can make a difference.</p>
+        </section>
+
+        <section id="departments" class="content-section shaded">
+            <h2>Our departments</h2>
+            <p>Explore the areas of study offered at our campus:</p>
+            <ul class="department-list">
+                <li>Computer Science</li>
+                <li>Business Administration</li>
+                <li>Economics</li>
+                <li>Software Engineering</li>
+                <li>Media and Communication</li>
+                <li>Mathematics</li>
+            </ul>
+        </section>
+
+        <section id="programs" class="content-section">
+            <h2>Academic programs</h2>
+            <p>Program details for prospective students:</p>
+            <table>
+                <tr>
+                    <th>Program</th>
+                    <th>Duration</th>
+                    <th>Degree title</th>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>4 years</td>
+                    <td>BS Computer Science</td>
+                </tr>
+                <tr>
+                    <td>Business Administration</td>
+                    <td>4 years</td>
+                    <td>Bachelor of Business Administration</td>
+                </tr>
+                <tr>
+                    <td>Economics</td>
+                    <td>4 years</td>
+                    <td>BS Economics</td>
+                </tr>
+                <tr>
+                    <td>Software Engineering</td>
+                    <td>4 years</td>
+                    <td>BS Software Engineering</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="campus" class="content-section shaded">
+            <h2>Life on campus</h2>
+            <p>Take a look at our university campus and learning spaces.</p>
+            <p class="campus-photo"><img src="images/campus1.jpg" alt="University campus building" /></p>
+            <p class="photo-caption">A welcoming place to learn</p>
+            <p class="campus-photo"><img src="images/campus2.jpg" alt="University campus grounds" /></p>
+            <p class="photo-caption">Room to explore and grow</p>
+        </section>
+
+        <section id="admissions" class="content-section">
+            <h2>Admission inquiry</h2>
+            <p>Share your details and the program you are interested in.</p>
+            <form id="inquiry-form" action="#admissions" method="get">
+                <p><label for="full-name">Name</label><br />
+                <input id="full-name" name="name" type="text" required /></p>
+
+                <p><label for="email">Email</label><br />
+                <input id="email" name="email" type="email" required /></p>
+
+                <p><label for="contact">Contact number</label><br />
+                <input id="contact" name="contact" type="tel" required /></p>
+
+                <p>Gender<br />
+                <input id="gender-female" class="gender-option" name="gender" type="radio" value="female" required />
+                <label for="gender-female">Female</label>
+                <input id="gender-male" class="gender-option" name="gender" type="radio" value="male" />
+                <label for="gender-male">Male</label>
+                <input id="gender-other" class="gender-option" name="gender" type="radio" value="prefer-not-to-say" />
+                <label for="gender-other">Prefer not to say</label></p>
+
+                <p><label for="program">Program selection</label><br />
+                <select id="program" name="program" required>
+                    <option value="">Choose a program</option>
+                    <option>Computer Science</option>
+                    <option>Business Administration</option>
+                    <option>Economics</option>
+                    <option>Software Engineering</option>
+                </select></p>
+
+                <p><button type="submit">Send inquiry</button></p>
+            </form>
+            <p id="form-message"></p>
+            <p class="small-note">This sample form demonstrates the interface. It does not send information to a university server.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Karachi Institute of Economics and Technology</strong></p>
+        <p>North Nazimabad Campus</p>
+        <p><a href="#home">Back to top</a></p>
+    </footer>
+
+    <!-- The JavaScript adds the welcome and demo form messages -->
+    <script src="script.js"></script>
+</body>
+</html>
+

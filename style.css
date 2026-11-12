@@ -1,0 +1,200 @@
+/* Basic page colors, type, and spacing */
+
+body {
+    margin: 0px;
+    background-color: #f3f6f5;
+    color: #263b3e;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    padding: 52px 20px;
+    background-color: #123b3a;
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1 {
+    width: 90%;
+    margin: 8px auto;
+    color: #ffffff;
+    font-family: Georgia, Times, serif;
+    font-size: 38px;
+}
+
+.eyebrow {
+    margin: 0px;
+    color: #b8d8c8;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tagline {
+    margin: 8px 0px 22px 0px;
+    color: #dce9e3;
+}
+
+nav {
+    padding: 4px 12px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #d4e0dc;
+}
+
+.nav-links {
+    margin: 10px 0px;
+}
+
+.nav-links a {
+    margin: 0px 10px;
+    color: #164b46;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #bb6b39;
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    margin: 28px auto;
+}
+
+.content-section {
+    margin: 20px 0px;
+    padding: 28px;
+    background-color: #ffffff;
+    border: 1px solid #dce5e1;
+}
+
+.shaded {
+    background-color: #e7f0ec;
+}
+
+h2 {
+    margin-top: 0px;
+    color: #164b46;
+    font-family: Georgia, Times, serif;
+    font-size: 27px;
+}
+
+h2+p {
+    color: #526765;
+}
+
+.department-list {
+    margin: 18px 0px 0px 0px;
+    padding: 0px;
+}
+
+.department-list li {
+    margin: 8px 0px;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    border: 1px solid #b8d8c8;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #164b46;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cbd9d3;
+}
+
+.campus-photo {
+    margin: 22px 0px 4px 0px;
+    text-align: center;
+}
+
+.campus-photo img {
+    width: 80%;
+
+    height: auto;
+    border: 5px solid #ffffff;
+}
+
+.photo-caption {
+    margin: 0px 0px 20px 0px;
+    color: #526765;
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+}
+
+form label {
+    color: #164b46;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #aabbb4;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+input.gender-option {
+    width: auto;
+    margin: 8px 4px 8px 0px;
+}
+
+button {
+    padding: 11px 22px;
+    background-color: #bb6b39;
+    color: #ffffff;
+    border: 1px solid #9f572d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #98552e;
+}
+
+.small-note {
+    color: #637572;
+    font-size: 13px;
+}
+
+footer {
+    padding: 24px 20px;
+    background-color: #123b3a;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: #dce9e3;
+    text-decoration: underline;
+}
+
+#welcome-message, #form-message {
+    font-weight: bold;
+}
+
+
+
+
